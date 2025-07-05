@@ -1,0 +1,58 @@
+2025-07-01 00:00:14,945 - INFO - Model loaded successfully: fast_optimized_model_precision_optimized_20250630_233735.pkl
+2025-07-01 00:00:14,970 - INFO - Database setup completed
+2025-07-01 00:02:54,327 - ERROR - Preprocessing failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income_ratio
+- employment_length
+- feature_10
+- ...
+Feature names seen at fit time, yet now missing:
+- Accompany_Client
+- Active_Loan
+- Age_Days
+- Age_Group
+- Age_Years
+- ...
+
+2025-07-01 00:02:54,333 - ERROR - Prediction failed: 422: Feature preprocessing failed: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- annual_income
+- credit_score
+- debt_to_income_ratio
+- employment_length
+- feature_10
+- ...
+Feature names seen at fit time, yet now missing:
+- Accompany_Client
+- Active_Loan
+- Age_Days
+- Age_Group
+- Age_Years
+- ...
+
+2025-07-01 00:08:50,245 - INFO - Updated feedback for string: 1
+2025-07-01 00:15:04,238 - INFO - Model loaded: 20 features, threshold: 0.6500000000000001
+2025-07-01 00:15:04,243 - INFO - Database setup completed
+2025-07-01 00:18:06,763 - INFO - Model loaded: 20 features, threshold: 0.6500000000000001
+2025-07-01 00:18:06,767 - INFO - Database setup completed
+2025-07-01 00:18:42,657 - INFO - Model loaded: 20 features, threshold: 0.6500000000000001
+2025-07-01 00:18:42,661 - INFO - Database setup completed
+2025-07-01 00:20:19,439 - INFO - Model loaded: 20 features, threshold: 0.6500000000000001
+2025-07-01 00:20:19,445 - INFO - Database setup completed
+2025-07-01 00:21:31,866 - INFO - Prediction for test_001: APPROVE (0.1127)
+2025-07-01 10:13:37,906 - INFO - Model loaded: 20 features, threshold: 0.6500000000000001
+2025-07-01 10:13:37,910 - INFO - Database setup completed
+2025-07-01 10:14:27,477 - INFO - Model loaded: 20 features, threshold: 0.6500000000000001
+2025-07-01 10:14:27,491 - INFO - Database setup completed
+2025-07-01 10:26:12,439 - INFO - Prediction for excellent_001: APPROVE (0.1520)
+2025-07-01 10:27:13,479 - INFO - Prediction for stable_002: APPROVE (0.1029)
+2025-07-01 10:27:32,929 - INFO - Prediction for young_professional_003: APPROVE (0.0896)
+2025-07-01 10:27:56,273 - INFO - Prediction for average_004: APPROVE (0.1903)
+2025-07-01 10:28:05,308 - INFO - Prediction for inconsistent_005: APPROVE (0.2048)
+2025-07-01 10:28:15,277 - INFO - Prediction for new_worker_006: APPROVE (0.2196)
+2025-07-01 10:28:23,258 - INFO - Prediction for high_risk_007: REJECT (0.4050)
+2025-07-01 10:28:34,986 - INFO - Prediction for unstable_008: REVIEW (0.2983)
+2025-07-01 10:28:45,993 - INFO - Prediction for poor_credit_009: REJECT (0.5867)
+2025-07-01 10:29:03,554 - INFO - Prediction for very_high_risk_010: REJECT (0.5014)
